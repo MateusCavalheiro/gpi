@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14" pages="2">
+  <diagram name="Sap Flow" id="VoTAhLbvzmLqQFa-WXS1">
+    <mxGraphModel dx="783" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XFw52S_5rL9-HEK0-xM_-8" value="SAP Flow" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontFamily=Petrobras Sans;" vertex="1" parent="1">
+          <mxGeometry x="41" y="150" width="746" height="190" as="geometry">
+            <mxRectangle x="40" y="50" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFw52S_5rL9-HEK0-xM_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XFw52S_5rL9-HEK0-xM_-8" source="XFw52S_5rL9-HEK0-xM_-10" target="XFw52S_5rL9-HEK0-xM_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Imediata&lt;div&gt;Nota&lt;/div&gt;" linkTarget="_blank" id="XFw52S_5rL9-HEK0-xM_-10">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=light-dark(#FFFFFF, #ffffff);strokeColor=light-dark(#005700,#283D28);fontStyle=1;fontSize=12;fontFamily=Petrobras Sans;strokeWidth=3;direction=south;" vertex="1" parent="XFw52S_5rL9-HEK0-xM_-8">
+            <mxGeometry x="40" y="62.5" width="65" height="65" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XFw52S_5rL9-HEK0-xM_-8" source="XFw52S_5rL9-HEK0-xM_-11" target="DkjiPzWv2JCcc09c9HGR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-6" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DkjiPzWv2JCcc09c9HGR-5">
+          <mxGeometry x="-0.2714" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Loop Gerencia" link="data:page/id,NpajYIDThqCRLWweOfQn" id="XFw52S_5rL9-HEK0-xM_-11">
+          <mxCell style="whiteSpace=wrap;html=1;fontFamily=Petrobras Sans;" vertex="1" parent="XFw52S_5rL9-HEK0-xM_-8">
+            <mxGeometry x="136" y="65" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-3" value="&lt;font face=&quot;Petrobras Sans&quot;&gt;Bool&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(default, #262626);labelBackgroundColor=none;labelBorderColor=none;textShadow=1;" vertex="1" parent="XFw52S_5rL9-HEK0-xM_-8">
+          <mxGeometry x="136" y="50" width="39" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-4" value="" style="whiteSpace=wrap;html=1;fontFamily=Petrobras Sans;" vertex="1" parent="XFw52S_5rL9-HEK0-xM_-8">
+          <mxGeometry x="336" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2fgs0tRBW9bzs4gIzvFo-1" value="Caso de Negação" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="340" width="746" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AzHY0qVijyUGNtcnChuj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2fgs0tRBW9bzs4gIzvFo-1" source="AzHY0qVijyUGNtcnChuj-4" target="AzHY0qVijyUGNtcnChuj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzHY0qVijyUGNtcnChuj-1" value="Notifica o&amp;nbsp;&lt;div&gt;responsável de Início&lt;/div&gt;&lt;div&gt;e todos que tomaram alguma ação&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Petrobras Sans;" vertex="1" parent="2fgs0tRBW9bzs4gIzvFo-1">
+          <mxGeometry x="189" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 12px;&quot;&gt;Remoção&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;do Status&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;NOTA&lt;/span&gt;&lt;/div&gt;" linkTarget="_blank" id="AzHY0qVijyUGNtcnChuj-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=light-dark(#FFFFFF, #ffffff);strokeColor=light-dark(#005700,#283D28);fontStyle=1;fontSize=9;fontFamily=Petrobras Sans;strokeWidth=3;direction=south;" vertex="1" parent="2fgs0tRBW9bzs4gIzvFo-1">
+            <mxGeometry x="60" y="62" width="76" height="76" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;font-size: 12px;&quot;&gt;Remoção&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;do Status&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;NOTA&lt;/span&gt;&lt;/div&gt;" linkTarget="_blank" id="DkjiPzWv2JCcc09c9HGR-8">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=light-dark(#FFFFFF, #ffffff);strokeColor=light-dark(#005700,#283D28);fontStyle=1;fontSize=9;fontFamily=Petrobras Sans;strokeWidth=3;direction=south;" vertex="1" parent="2fgs0tRBW9bzs4gIzvFo-1">
+            <mxGeometry x="373" y="62" width="76" height="76" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2fgs0tRBW9bzs4gIzvFo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" edge="1" parent="1" source="XFw52S_5rL9-HEK0-xM_-11" target="AzHY0qVijyUGNtcnChuj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-1" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2fgs0tRBW9bzs4gIzvFo-3">
+          <mxGeometry x="-0.5755" y="-12" relative="1" as="geometry">
+            <mxPoint x="-9" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkjiPzWv2JCcc09c9HGR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SAP Flow&lt;/h1&gt;&lt;p&gt;Como serão adequadas as etapas de andamento de uma imediata&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="10" width="419" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NpajYIDThqCRLWweOfQn" name="Sap Flow (LOOP GERENCIAS)">
+    <mxGraphModel dx="1371" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-j0XBw5qxgGaQ3-6oVZS-1" value="Horizontal Container" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="690" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y4WU22i3BMaCBwDKmLT-2" value="&lt;font face=&quot;Petrobras Sans&quot;&gt;A gerência terá 2 status para cada uma delas (STATUS E DEFINIÇÃO)&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Petrobras Sans&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Petrobras Sans&quot;&gt;OPERAÇÃO: STATUSACEITAR / STATUSNAOACEITAR&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Petrobras Sans&quot;&gt;MANUTENÇÃO: STATUSACEITAR / STATUSNAOACEITAR&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="46" width="550" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

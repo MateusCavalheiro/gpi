@@ -11,6 +11,11 @@ pip freeze > requirements.txt
 
 pip freeze > requirements.txt
 
+
+## Força o unistall da biblioteca
+pip install --upgrade --force-reinstall wheel setuptools
+
+## Solicita a criação do arquivo tar.gz
 python setup.py sdist bdist_wheel #compilar para tar.gz
 
 from .modulo1 import ClasseA  # Importa a ClasseA do modulo1 (relativo ao pacote)
